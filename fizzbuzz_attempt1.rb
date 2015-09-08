@@ -9,3 +9,9 @@ def fizzbuzz(number)
     number
   end
 end
+
+def fizzbuzz_to_limit(limit)
+  (1..limit).each do |number|
+    puts fizzbuzz number
+  end
+end
